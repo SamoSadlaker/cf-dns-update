@@ -55,7 +55,7 @@ if [ "$current" != "$myip" ]; then
       "proxied": '"$PROXIED"',
       "type": "A",
       "comment": "Automatically updated '"$currdate"'",
-      "ttl": 3600
+      "ttl": 1
     }')
 
   if [ $? -eq 0 ]; then
